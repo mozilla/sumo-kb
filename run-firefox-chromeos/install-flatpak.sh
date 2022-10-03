@@ -13,3 +13,5 @@ then
   sudo apt install flatpak/buster-backports -y
 else
   echo 'This script does not support codename "'$VERSION_CODENAME'".'
+fi
+fi
