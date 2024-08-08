@@ -16,6 +16,7 @@ Icon=/opt/thunderbird/chrome/icons/default/default128.png
 Categories=Application;Network;Email;
 MimeType=x-scheme-handler/mailto;application/x-xpinstall;
 StartupNotify=true
+StartupWMClass=thunderbird-esr
 Actions=Compose;Contacts
 
 [Desktop Action Compose]
