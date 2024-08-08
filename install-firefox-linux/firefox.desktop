@@ -12,3 +12,16 @@ Icon=/opt/firefox/browser/chrome/icons/default/default128.png
 Categories=GNOME;GTK;Network;WebBrowser;
 MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
 StartupNotify=true
+Actions=new-window;new-private-window;
+
+[Desktop Action new-window]
+Name=New Window
+Name[pt]=Nova janela
+Name[pt_BR]=Nova janela
+Exec=firefox --new-window
+
+[Desktop Action new-private-window]
+Name=New Incognito Window
+Name[pt]=Nova janela de navegação anónima
+Name[pt_BR]=Nova janela anônima
+Exec=firefox  --private-window
