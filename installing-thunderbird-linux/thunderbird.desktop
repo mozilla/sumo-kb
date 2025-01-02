@@ -17,6 +17,7 @@ Categories=Application;Network;Email;
 MimeType=x-scheme-handler/mailto;application/x-xpinstall;
 StartupNotify=true
 Actions=Compose;Contacts
+StartupWMClass=thunderbird-esr
 
 [Desktop Action Compose]
 Name=Compose New Message
